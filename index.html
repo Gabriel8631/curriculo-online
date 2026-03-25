@@ -3,63 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Currículo online de Gabriel Moraes. Desenvolvedor apaixonado por tecnologia, programação e desenvolvimento de projetos.">
+    <meta name="description" content="Currículo técnico de Gabriel Moraes, estudante de Ciência da Computação e Desenvolvedor de Software com foco em C, C++, Python e Web.">
     <title>Currículo - Gabriel Moraes</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            color: #333;
-            max-width: 800px;
+            color: #2b2b2b;
+            max-width: 850px;
             margin: 0 auto;
-            padding: 20px;
-            background-color: #f9f9f9;
+            padding: 30px;
+            background-color: #f4f7f6;
         }
         header {
             text-align: center;
-            padding-bottom: 20px;
-            border-bottom: 2px solid #0056b3;
-            margin-bottom: 20px;
+            padding-bottom: 25px;
+            border-bottom: 3px solid #2c3e50;
+            margin-bottom: 30px;
         }
         h1 {
-            color: #0056b3;
+            color: #2c3e50;
             margin-bottom: 5px;
+            font-size: 2.5em;
+            letter-spacing: -0.5px;
         }
-        .contactos {
-            font-size: 0.9em;
-            color: #666;
-        }
-        .contactos a {
-            color: #0056b3;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        section {
-            background: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        h2 {
-            color: #0056b3;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 10px;
+        header p {
+            font-size: 1.2em;
+            color: #555;
+            font-weight: 600;
             margin-top: 0;
         }
+        .contactos {
+            font-size: 0.95em;
+            color: #555;
+            margin-top: 15px;
+        }
+        .contactos a {
+            color: #2980b9;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: 500;
+        }
+        .contactos a:hover {
+            text-decoration: underline;
+        }
+        section {
+            background: #ffffff;
+            padding: 25px 30px;
+            margin-bottom: 25px;
+            border-radius: 6px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-left: 4px solid #2c3e50;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 1.5em;
+        }
         .item-experiencia {
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        .item-experiencia h3 {
+            margin-bottom: 5px;
+            color: #34495e;
+            font-size: 1.2em;
         }
         .data {
             font-style: italic;
-            color: #777;
+            color: #7f8c8d;
             font-size: 0.9em;
+            display: block;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
         }
         footer {
             text-align: center;
-            margin-top: 30px;
-            font-size: 0.8em;
-            color: #777;
+            margin-top: 40px;
+            font-size: 0.85em;
+            color: #95a5a6;
         }
     </style>
 </head>
@@ -67,9 +95,10 @@
 
     <header>
         <h1>Gabriel Moraes</h1>
-        <p>Desenvolvedor de Software</p>
+        <p>Estudante de Ciência da Computação | Desenvolvedor de Software</p>
         <div class="contactos">
-            <span>📍 Brasil</span> |
+            <span>📍 Brasília, DF - Brasil</span> |
+            <a href="tel:+5561986312187">📱 (61) 98631-2187</a> |
             <a href="mailto:gmsgabriel08@gmail.com">✉️ gmsgabriel08@gmail.com</a> |
             <a href="https://github.com/Gabriel8631" target="_blank">💻 GitHub</a> |
             <a href="https://www.linkedin.com/in/gabriel-moraes-48b40a245" target="_blank">🔗 LinkedIn</a>
@@ -78,34 +107,44 @@
 
     <main>
         <section id="sobre">
-            <h2>Perfil</h2>
-            <p>Sou um desenvolvedor apaixonado por tecnologia e por criar soluções inovadoras. Tenho facilidade em trabalhar em equipe, sempre me disponibilizando para ajudar no desenvolvimento colaborativo de projetos. Procuro estar sempre evoluindo, aprendendo novas ferramentas e linguagens para agregar valor e construir aplicações eficientes.</p>
+            <h2>Resumo Profissional</h2>
+            <p>Estudante de Ciência da Computação com perfil analítico e forte base teórica e prática em lógica de programação, algoritmos e estruturas de dados. Experiência no desenvolvimento de soluções utilizando linguagens de baixo e alto nível, incluindo <strong>C, C++ e Python</strong>. Possuo capacidade de adaptação rápida a novas tecnologias e metodologias ágeis, atuando de forma proativa no ciclo de desenvolvimento de software. Foco na escrita de código limpo, eficiente e na resolução de problemas lógicos complexos, sempre visando o trabalho colaborativo e a excelência técnica.</p>
+        </section>
+
+        <section id="educacao">
+            <h2>Formação Acadêmica</h2>
+            <div class="item-experiencia">
+                <h3>Bacharelado em Ciência da Computação</h3>
+                <span class="data">Nome da sua Universidade/Faculdade — Em andamento</span>
+                <p>Foco no estudo aprofundado de engenharia de software, cálculo, arquitetura de computadores, estruturas de dados avançadas e otimização de algoritmos.</p>
+            </div>
         </section>
 
         <section id="projetos">
-            <h2>Projetos em Destaque</h2>
+            <h2>Projetos de Destaque</h2>
             <div class="item-experiencia">
                 <h3>Implementação de Algoritmos Genéticos</h3>
-                <p>Desenvolvimento em <strong>Python</strong> de rotinas para cruzamento em ponto único e mutação de populações binárias, aplicando conceitos lógicos complexos.</p>
+                <p>Desenvolvimento de rotinas algorítmicas em <strong>Python</strong> focadas em cruzamento de ponto único e mutação de populações binárias. Aplicação de conceitos matemáticos e lógicos avançados para a resolução de problemas de otimização de busca.</p>
             </div>
             <div class="item-experiencia">
-                <h3>Currículo Online & Portfólio</h3>
-                <p>Página web responsiva desenvolvida com <strong>HTML5 e CSS3</strong>, versionada e hospedada diretamente via GitHub Pages.</p>
+                <h3>Portfólio Web e Versionamento Contínuo</h3>
+                <p>Estruturação de página web semântica e responsiva utilizando <strong>HTML5 e CSS3</strong>. Versionamento de código realizado via Git e deploy automatizado através do GitHub Pages, demonstrando domínio em fluxo de versionamento e infraestrutura básica web.</p>
             </div>
         </section>
 
         <section id="habilidades">
-            <h2>Competências (Skills)</h2>
+            <h2>Competências Técnicas (Hard Skills)</h2>
             <ul>
-                <li><strong>Linguagens:</strong> Python, HTML, CSS</li>
-                <li><strong>Ferramentas:</strong> Git, GitHub</li>
-                <li><strong>Soft Skills:</strong> Proatividade, Trabalho em Equipe, Resolução de Problemas Lógicos</li>
+                <li><strong>Linguagens de Programação:</strong> C, C++, Python, HTML5, CSS3</li>
+                <li><strong>Fundamentos de Computação:</strong> Estruturas de Dados, Algoritmos, Lógica de Programação, Programação Orientada a Objetos (POO)</li>
+                <li><strong>Ferramentas e Versionamento:</strong> Git, GitHub, VS Code, Controle de Versão Distribuído</li>
+                <li><strong>Soft Skills:</strong> Resolução Analítica de Problemas, Trabalho em Equipe, Comunicação Técnica, Proatividade</li>
             </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Gabriel Moraes. Criado com HTML e CSS.</p>
+        <p>&copy; 2026 Gabriel Moraes. Desenvolvido com rigor técnico utilizando HTML e CSS.</p>
     </footer>
 
 </body>
